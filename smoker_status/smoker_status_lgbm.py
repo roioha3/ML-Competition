@@ -50,4 +50,4 @@ submission = pd.DataFrame({
     "smoking": y_test_proba
 })
 submission.to_csv("smoker_status/submission.csv", index=False)
-print("📁 Final LGBM-only submission written: smoker_status/submission.csv")ע
+print("📁 Final LGBM-only submission written: smoker_status/submission.csv")

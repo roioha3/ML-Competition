@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+h2o
+lightgbm
+xgboost
+optuna
+category_encoders
