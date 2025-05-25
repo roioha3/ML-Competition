@@ -2,11 +2,19 @@ import os
 import numpy as np
 import pandas as pd
 from pathlib import Path
-from sklearn.model_selection import KFold
-from sklearn.metrics import mean_absolute_error
+from sklearn.model_selection import KFold, cross_val_score
+from sklearn.ensemble import StackingRegressor
+from sklearn.linear_model import RidgeCV
 import xgboost as xgb
+import lightgbm as lgb
+import optuna
+import matplotlib.pyplot as plt
 
-# 1) Auto‐detect input dir (Kaggle or local)
+# === 0) Optional: Suppress Optuna INFO logs and name the study ===
+optuna.logging.set_verbosity(optuna.logging.WARNING)
+study_name = "blueberry_xgb_tuning"
+
+# === 1) Detect input folder ===
 INPUT_ROOT = Path('/kaggle/input')
 if INPUT_ROOT.exists():
     subs = [d for d in INPUT_ROOT.iterdir() if d.is_dir()]
@@ -14,11 +22,7 @@ if INPUT_ROOT.exists():
 else:
     DATA_DIR = Path('.')
 
-# 2) Load
-train = pd.read_csv(DATA_DIR/'train.csv')
-test  = pd.read_csv(DATA_DIR/'test.csv')
-
-# 3) Richer feature engineering + interactions
+# === 2) Load data & feature engineering ===
 def add_features(df):
     df = df.copy()
     df['bee_total']       = df[['honeybee','bumbles','andrena','osmia']].sum(axis=1)
@@ -28,83 +32,112 @@ def add_features(df):
     df['lower_temp_mean'] = (df['MaxOfLowerTRange'] + df['MinOfLowerTRange']) / 2
     for col in ['honeybee','bumbles','andrena','osmia']:
         df[f'{col}_ratio'] = df[col] / (df['bee_total'] + 1e-9)
-    # interaction features
     df['bee×upper_mean'] = df['bee_total'] * df['upper_temp_mean']
     df['diff_ratio']     = df['lower_temp_diff'] / (df['upper_temp_diff'] + 1e-9)
     return df
 
+train = pd.read_csv(DATA_DIR/'train.csv')
+test  = pd.read_csv(DATA_DIR/'test.csv')
 train = add_features(train)
 test  = add_features(test)
 
-X       = train.drop(columns=['id','yield'])
-y       = train['yield']
-X_test  = test.drop(columns=['id'])
+X_full = train.drop(columns=['id','yield'])
+y_full = np.log1p(train['yield'])
+X_test = test.drop(columns=['id'])
 
-# 4) Log‐transform target
-y_log = np.log1p(y)
+# === 3) Feature selection via XGB importance ===
+dmat = xgb.DMatrix(X_full, label=y_full)
+fs_model = xgb.train(
+    {'objective':'reg:absoluteerror', 'eval_metric':'mae', 'tree_method':'hist', 'seed':42},
+    dmat, num_boost_round=500, verbose_eval=False
+)
+imp = fs_model.get_score(importance_type='gain')
+n_keep = max(5, int(len(imp) * 0.5))
+top_feats = sorted(imp, key=imp.get, reverse=True)[:n_keep]
+X_full = X_full[top_feats]
+X_test = X_test[top_feats]
 
-# 5) Stacked 5‐fold CV
+# === 4) Hyperparameter tuning with Optuna ===
+def objective(trial):
+    param = {
+        'tree_method': 'hist',
+        'objective': 'reg:absoluteerror',
+        'eval_metric': 'mae',
+        'max_depth': trial.suggest_int('max_depth', 3, 8),
+        'learning_rate': trial.suggest_float('learning_rate', 0.005, 0.1, log=True),
+        'subsample': trial.suggest_float('subsample', 0.6, 1.0),
+        'colsample_bytree': trial.suggest_float('colsample_bytree', 0.6, 1.0),
+        'gamma': trial.suggest_float('gamma', 1e-8, 1.0, log=True),
+        'reg_alpha': trial.suggest_float('reg_alpha', 1e-8, 10.0, log=True),
+        'reg_lambda': trial.suggest_float('reg_lambda', 1e-8, 10.0, log=True),
+        'min_child_weight': trial.suggest_int('min_child_weight', 1, 10),
+        'n_estimators': 1000,
+        'seed': 42,
+        'verbosity': 0
+    }
+    reg = xgb.XGBRegressor(**param)
+    score = cross_val_score(
+        reg, X_full, y_full,
+        cv=3, scoring='neg_mean_absolute_error'
+    )
+    return -score.mean()
+
+study = optuna.create_study(
+    study_name=study_name,
+    direction='minimize',
+    sampler=optuna.samplers.TPESampler(seed=42)
+)
+study.optimize(objective, n_trials=20)
+best_params = study.best_params
+best_xgb = xgb.XGBRegressor(
+    **best_params,
+    objective='reg:absoluteerror',
+    eval_metric='mae',
+    verbosity=0,
+    tree_method='hist'
+)
+
+# === 5) Stacking ensemble ===
+lgb_base = lgb.LGBMRegressor(
+    objective='regression_l1', metric='mae',
+    n_estimators=1500, learning_rate=0.01,
+    subsample=0.8, colsample_bytree=0.8,
+    random_state=42
+)
+stack = StackingRegressor(
+    estimators=[('xgb', best_xgb), ('lgb', lgb_base)],
+    final_estimator=RidgeCV(alphas=[0.1, 1.0, 10.0]),
+    cv=5, passthrough=True, n_jobs=-1
+)
+
+# === 6) 5-fold OOF training & predict ===
 kf = KFold(n_splits=5, shuffle=True, random_state=42)
-oof_preds  = np.zeros(len(X))
-test_preds = np.zeros(len(X_test))
+oof = np.zeros(len(X_full))
+preds = np.zeros(len(X_test))
+for train_idx, val_idx in kf.split(X_full):
+    X_tr, X_val = X_full.iloc[train_idx], X_full.iloc[val_idx]
+    y_tr, y_val = y_full.iloc[train_idx], y_full.iloc[val_idx]
+    stack.fit(X_tr, y_tr)
+    oof[val_idx] = stack.predict(X_val)
+    preds += stack.predict(X_test) / kf.n_splits
 
-# 6) XGBoost params (CPU histogram; switch to GPU by adding device='cuda')
-params = {
-    'objective':        'reg:absoluteerror',
-    'eval_metric':      'mae',
-    'tree_method':      'hist',     # use 'hist' here
-    'learning_rate':    0.01,
-    'max_depth':        6,
-    'subsample':        0.9,
-    'colsample_bytree': 0.8,
-    'gamma':            0.1,
-    'reg_alpha':        1.0,
-    'reg_lambda':       1.0,
-    'min_child_weight': 1,
-    'seed':             42,
-    'verbosity':        0,
-    # if you *do* spin up a GPU runtime, uncomment:
-    # 'device': 'cuda',
-}
+# === 7) Evaluation & output ===
+oof_mae = np.mean(np.abs(np.expm1(oof) - np.expm1(y_full)))
+print(f"OOF MAE: {oof_mae:.4f}")
+sub = pd.DataFrame({'id': test['id'], 'yield': np.expm1(preds)})
+sub.to_csv('submission.csv', index=False)
+print("Saved submission.csv")
 
-# 7) Learning‐rate schedule callback: halve LR every 1k rounds
-def lr_schedule(iteration):
-    base_lr = params['learning_rate']
-    return base_lr * (0.5 ** (iteration // 1000))
-
-for fold, (tr_idx, val_idx) in enumerate(kf.split(X), 1):
-    print(f"\n=== Fold {fold} ===")
-    X_tr, X_val = X.iloc[tr_idx], X.iloc[val_idx]
-    y_tr, y_val = y_log.iloc[tr_idx], y_log.iloc[val_idx]
-
-    dtrain = xgb.DMatrix(X_tr, label=y_tr)
-    dvalid = xgb.DMatrix(X_val, label=y_val)
-    dtest  = xgb.DMatrix(X_test)
-
-    bst = xgb.train(
-        params,
-        dtrain,
-        num_boost_round=20_000,
-        evals=[(dtrain, 'train'), (dvalid, 'valid')],
-        early_stopping_rounds=200,
-        callbacks=[xgb.callback.LearningRateScheduler(lr_schedule)],
-        verbose_eval=500
+# === 8) Plot ensemble feature importances ===
+try:
+    plt.figure(figsize=(8, 6))
+    xgb.plot_importance(
+        stack.named_estimators_['xgb'],
+        max_num_features=10
     )
-
-    oof_preds[val_idx] = bst.predict(
-        dvalid, iteration_range=(0, bst.best_iteration+1)
-    )
-    test_preds += bst.predict(
-        dtest, iteration_range=(0, bst.best_iteration+1)
-    ) / kf.n_splits
-
-# 8) Final OOF MAE & submission
-oof = np.expm1(oof_preds)
-print("\n>>> OOF MAE:", mean_absolute_error(y, oof))
-
-submission = pd.DataFrame({
-    'id':    test['id'],
-    'yield': np.expm1(test_preds)
-})
-submission.to_csv('submission.csv', index=False)
-print("✅ submission.csv written")
+    plt.title('XGB Top Features')
+    plt.tight_layout()
+    plt.savefig('xgb_importance.png')
+    plt.show()
+except Exception:
+    pass
