@@ -1,0 +1,29 @@
+2025-05-27 00:46:56,889 INFO    MainThread:17744 [wandb_setup.py:_flush():70] Current SDK version is 0.19.11
+2025-05-27 00:46:56,889 INFO    MainThread:17744 [wandb_setup.py:_flush():70] Configure stats pid to 17744
+2025-05-27 00:46:56,889 INFO    MainThread:17744 [wandb_setup.py:_flush():70] Loading settings from C:\Users\PC\.config\wandb\settings
+2025-05-27 00:46:56,889 INFO    MainThread:17744 [wandb_setup.py:_flush():70] Loading settings from C:\Users\PC\Desktop\Works\ML\ML-Competition\ML-Competition\wandb\settings
+2025-05-27 00:46:56,889 INFO    MainThread:17744 [wandb_setup.py:_flush():70] Loading settings from environment variables
+2025-05-27 00:46:56,890 INFO    MainThread:17744 [wandb_init.py:setup_run_log_directory():724] Logging user logs to C:\Users\PC\Desktop\Works\ML\ML-Competition\ML-Competition\wandb\run-20250527_004656-m94kkos3\logs\debug.log
+2025-05-27 00:46:56,890 INFO    MainThread:17744 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to C:\Users\PC\Desktop\Works\ML\ML-Competition\ML-Competition\wandb\run-20250527_004656-m94kkos3\logs\debug-internal.log
+2025-05-27 00:46:56,890 INFO    MainThread:17744 [wandb_init.py:init():852] calling init triggers
+2025-05-27 00:46:56,890 INFO    MainThread:17744 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-05-27 00:46:56,891 INFO    MainThread:17744 [wandb_init.py:init():893] starting backend
+2025-05-27 00:46:56,891 INFO    MainThread:17744 [wandb_init.py:init():897] sending inform_init request
+2025-05-27 00:46:56,907 INFO    MainThread:17744 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-05-27 00:46:56,908 INFO    MainThread:17744 [wandb_init.py:init():907] backend started and connected
+2025-05-27 00:46:56,909 INFO    MainThread:17744 [wandb_init.py:init():1005] updated telemetry
+2025-05-27 00:46:57,063 INFO    MainThread:17744 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-05-27 00:46:57,484 INFO    MainThread:17744 [wandb_init.py:init():1104] starting run threads in backend
+2025-05-27 00:46:57,604 INFO    MainThread:17744 [wandb_run.py:_console_start():2573] atexit reg
+2025-05-27 00:46:57,604 INFO    MainThread:17744 [wandb_run.py:_redirect():2421] redirect: wrap_raw
+2025-05-27 00:46:57,604 INFO    MainThread:17744 [wandb_run.py:_redirect():2490] Wrapping output streams.
+2025-05-27 00:46:57,604 INFO    MainThread:17744 [wandb_run.py:_redirect():2513] Redirects installed.
+2025-05-27 00:46:57,607 INFO    MainThread:17744 [wandb_init.py:init():1150] run started, returning control to user process
+2025-05-27 01:17:21,094 INFO    MainThread:17744 [wandb_run.py:_finish():2321] finishing run roioha-ben-gurion-university-of-the-negev/smoking-prediction-xgboost/m94kkos3
+2025-05-27 01:17:21,094 INFO    MainThread:17744 [wandb_run.py:_atexit_cleanup():2538] got exitcode: 0
+2025-05-27 01:17:21,094 INFO    MainThread:17744 [wandb_run.py:_restore():2520] restore
+2025-05-27 01:17:21,095 INFO    MainThread:17744 [wandb_run.py:_restore():2526] restore done
+2025-05-27 01:17:22,310 INFO    MainThread:17744 [wandb_run.py:_footer_history_summary_info():4188] rendering history
+2025-05-27 01:17:22,311 INFO    MainThread:17744 [wandb_run.py:_footer_history_summary_info():4220] rendering summary
+2025-05-27 01:17:22,311 INFO    MainThread:17744 [wandb_run.py:_footer_sync_info():4149] logging synced files

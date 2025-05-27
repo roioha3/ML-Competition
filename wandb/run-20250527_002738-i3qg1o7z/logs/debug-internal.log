@@ -1,0 +1,15 @@
+{"time":"2025-05-27T00:27:38.1218497+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\PC\\Desktop\\Works\\ML\\ML-Competition\\ML-Competition\\wandb\\run-20250527_002738-i3qg1o7z\\logs\\debug-core.log"}
+{"time":"2025-05-27T00:27:38.4385134+03:00","level":"INFO","msg":"created new stream","id":"i3qg1o7z"}
+{"time":"2025-05-27T00:27:38.4391298+03:00","level":"INFO","msg":"stream: started","id":"i3qg1o7z"}
+{"time":"2025-05-27T00:27:38.4391298+03:00","level":"INFO","msg":"handler: started","stream_id":"i3qg1o7z"}
+{"time":"2025-05-27T00:27:38.4391298+03:00","level":"INFO","msg":"sender: started","stream_id":"i3qg1o7z"}
+{"time":"2025-05-27T00:27:38.4391298+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"i3qg1o7z"}
+{"time":"2025-05-27T00:27:38.6684434+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-27T00:27:39.0122668+03:00","level":"INFO","msg":"stream: closing","id":"i3qg1o7z"}
+{"time":"2025-05-27T00:27:39.0122668+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-27T00:27:39.0122668+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-27T00:27:39.908836+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-27T00:27:40.150028+03:00","level":"INFO","msg":"handler: closed","stream_id":"i3qg1o7z"}
+{"time":"2025-05-27T00:27:40.150028+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"i3qg1o7z"}
+{"time":"2025-05-27T00:27:40.150028+03:00","level":"INFO","msg":"sender: closed","stream_id":"i3qg1o7z"}
+{"time":"2025-05-27T00:27:40.1507433+03:00","level":"INFO","msg":"stream: closed","id":"i3qg1o7z"}

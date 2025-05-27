@@ -6,12 +6,21 @@ from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import StratifiedKFold
 
 # === Load Data ===
-train = pd.read_csv("smoker_status/train.csv")
+train1 = pd.read_csv("smoker_status/train.csv")
+train2 = pd.read_csv("smoker_status/train2.csv")
+train3 = pd.read_csv("smoker_status/train_dataset.csv")
 test = pd.read_csv("smoker_status/test.csv")
 
+# === Standardize column names (if needed) ===
+for df in [train1, train2, train3, test]:
+    df.columns = df.columns.str.strip().str.replace(" ", "_")
+
+# === Concatenate all training sets ===
+train_all = pd.concat([train1, train2, train3], ignore_index=True).drop_duplicates()
+
 # === Prepare Data ===
-X = train.drop(columns=["id", "smoking"])
-y = train["smoking"]
+X = train_all.drop(columns=["id", "smoking"])
+y = train_all["smoking"]
 X_test = test.drop(columns=["id"])
 test_ids = test["id"]
 

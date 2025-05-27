@@ -1,0 +1,391 @@
+[32m[I 2025-05-27 00:29:21,203][0m A new study created in memory with name: no-name-b6705927-42d3-4f94-af69-bbdea28d3785[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:29:28,609][0m Trial 0 finished with value: 0.8622542692095122 and parameters: {'n_estimators': 1105, 'learning_rate': 0.05380777135655848, 'max_depth': 10, 'subsample': 0.8484112851998229, 'colsample_bytree': 0.934963829641027, 'gamma': 3.489159999860819, 'min_child_weight': 10}. Best is trial 0 with value: 0.8622542692095122.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:29:35,960][0m Trial 1 finished with value: 0.8683091707510696 and parameters: {'n_estimators': 1446, 'learning_rate': 0.06320183807555156, 'max_depth': 10, 'subsample': 0.8357980523960904, 'colsample_bytree': 0.6674941772092376, 'gamma': 2.061644313307856, 'min_child_weight': 5}. Best is trial 1 with value: 0.8683091707510696.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:29:54,205][0m Trial 2 finished with value: 0.8776827416602004 and parameters: {'n_estimators': 837, 'learning_rate': 0.032461214408648624, 'max_depth': 9, 'subsample': 0.7141475606133115, 'colsample_bytree': 0.692347210964624, 'gamma': 0.5273732016264809, 'min_child_weight': 2}. Best is trial 2 with value: 0.8776827416602004.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:30:04,544][0m Trial 3 finished with value: 0.8600429069020962 and parameters: {'n_estimators': 660, 'learning_rate': 0.04562047284653819, 'max_depth': 8, 'subsample': 0.847114963303889, 'colsample_bytree': 0.8817401456938008, 'gamma': 3.9607825333262854, 'min_child_weight': 9}. Best is trial 2 with value: 0.8776827416602004.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:30:35,715][0m Trial 4 finished with value: 0.8788189902113 and parameters: {'n_estimators': 1380, 'learning_rate': 0.04009842086166564, 'max_depth': 12, 'subsample': 0.7971460473031913, 'colsample_bytree': 0.7502761556627213, 'gamma': 0.9821952959124675, 'min_child_weight': 3}. Best is trial 4 with value: 0.8788189902113.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:30:47,226][0m Trial 5 finished with value: 0.8690495486218657 and parameters: {'n_estimators': 916, 'learning_rate': 0.0936569604303248, 'max_depth': 11, 'subsample': 0.8544477106249153, 'colsample_bytree': 0.6689741173463789, 'gamma': 2.0846463123185703, 'min_child_weight': 2}. Best is trial 4 with value: 0.8788189902113.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:30:58,015][0m Trial 6 finished with value: 0.8645278368561454 and parameters: {'n_estimators': 636, 'learning_rate': 0.09533312134183773, 'max_depth': 11, 'subsample': 0.8565425202266168, 'colsample_bytree': 0.9371906997602333, 'gamma': 2.5829727930031843, 'min_child_weight': 10}. Best is trial 4 with value: 0.8788189902113.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:31:11,009][0m Trial 7 finished with value: 0.8670579660203123 and parameters: {'n_estimators': 958, 'learning_rate': 0.03162390738335957, 'max_depth': 11, 'subsample': 0.8517343012485472, 'colsample_bytree': 0.9045724121717178, 'gamma': 3.2816684226354313, 'min_child_weight': 2}. Best is trial 4 with value: 0.8788189902113.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:31:18,029][0m Trial 8 finished with value: 0.8549062711148842 and parameters: {'n_estimators': 944, 'learning_rate': 0.038439020304978484, 'max_depth': 5, 'subsample': 0.9601832785684286, 'colsample_bytree': 0.6441528793817365, 'gamma': 4.49692740455863, 'min_child_weight': 7}. Best is trial 4 with value: 0.8788189902113.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:31:29,804][0m Trial 9 finished with value: 0.8597570908241304 and parameters: {'n_estimators': 748, 'learning_rate': 0.051136091348160245, 'max_depth': 4, 'subsample': 0.6553794606457757, 'colsample_bytree': 0.6617958473469489, 'gamma': 0.6380984126293671, 'min_child_weight': 1}. Best is trial 4 with value: 0.8788189902113.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:32:06,857][0m Trial 10 finished with value: 0.86706658395879 and parameters: {'n_estimators': 1991, 'learning_rate': 0.016479857794920102, 'max_depth': 6, 'subsample': 0.7483182046158176, 'colsample_bytree': 0.7814524177063783, 'gamma': 0.012609562393619544, 'min_child_weight': 5}. Best is trial 4 with value: 0.8788189902113.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:32:36,033][0m Trial 11 finished with value: 0.8754195391111068 and parameters: {'n_estimators': 1430, 'learning_rate': 0.02249305173065031, 'max_depth': 8, 'subsample': 0.7213021431075652, 'colsample_bytree': 0.767578471012187, 'gamma': 1.1291014902367054, 'min_child_weight': 3}. Best is trial 4 with value: 0.8788189902113.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:32:44,450][0m Trial 12 finished with value: 0.873597882446191 and parameters: {'n_estimators': 1352, 'learning_rate': 0.07602232151674429, 'max_depth': 12, 'subsample': 0.652747285622588, 'colsample_bytree': 0.7362081658202259, 'gamma': 1.2229582038409228, 'min_child_weight': 4}. Best is trial 4 with value: 0.8788189902113.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:33:23,886][0m Trial 13 finished with value: 0.8818819143257041 and parameters: {'n_estimators': 1678, 'learning_rate': 0.029746968721625792, 'max_depth': 9, 'subsample': 0.7508865707809311, 'colsample_bytree': 0.8397558387442537, 'gamma': 0.09265649496200679, 'min_child_weight': 1}. Best is trial 13 with value: 0.8818819143257041.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:33:53,442][0m Trial 14 finished with value: 0.8775947596830075 and parameters: {'n_estimators': 1698, 'learning_rate': 0.0644167211511841, 'max_depth': 7, 'subsample': 0.7797328837939242, 'colsample_bytree': 0.8421248445955505, 'gamma': 0.002771514799525421, 'min_child_weight': 1}. Best is trial 13 with value: 0.8818819143257041.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:34:21,234][0m Trial 15 finished with value: 0.8749537988870433 and parameters: {'n_estimators': 1660, 'learning_rate': 0.01230916506979748, 'max_depth': 12, 'subsample': 0.9360965056880592, 'colsample_bytree': 0.8271141663526768, 'gamma': 1.2785769191652978, 'min_child_weight': 3}. Best is trial 13 with value: 0.8818819143257041.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:34:39,022][0m Trial 16 finished with value: 0.8678134816460933 and parameters: {'n_estimators': 1678, 'learning_rate': 0.028867110668554803, 'max_depth': 9, 'subsample': 0.908750886737978, 'colsample_bytree': 0.7277947088186243, 'gamma': 1.6535596910622763, 'min_child_weight': 7}. Best is trial 13 with value: 0.8818819143257041.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:35:10,088][0m Trial 17 finished with value: 0.8735249625761409 and parameters: {'n_estimators': 1923, 'learning_rate': 0.040111760239882346, 'max_depth': 7, 'subsample': 0.6006083744414484, 'colsample_bytree': 0.8250705757317123, 'gamma': 0.6012905067492791, 'min_child_weight': 4}. Best is trial 13 with value: 0.8818819143257041.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:35:19,784][0m Trial 18 finished with value: 0.8675005618982214 and parameters: {'n_estimators': 1262, 'learning_rate': 0.06588807372516031, 'max_depth': 9, 'subsample': 0.7765001995769991, 'colsample_bytree': 0.997417121630346, 'gamma': 2.675265948061476, 'min_child_weight': 1}. Best is trial 13 with value: 0.8818819143257041.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:35:52,631][0m Trial 19 finished with value: 0.8790899204144189 and parameters: {'n_estimators': 1569, 'learning_rate': 0.022753920423571924, 'max_depth': 10, 'subsample': 0.6962779548904297, 'colsample_bytree': 0.6205727883626684, 'gamma': 0.796634980756814, 'min_child_weight': 3}. Best is trial 13 with value: 0.8818819143257041.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:36:25,358][0m Trial 20 finished with value: 0.8730046986247362 and parameters: {'n_estimators': 1812, 'learning_rate': 0.020590938373845194, 'max_depth': 10, 'subsample': 0.6740633189068261, 'colsample_bytree': 0.6049555262671049, 'gamma': 1.818013664956034, 'min_child_weight': 6}. Best is trial 13 with value: 0.8818819143257041.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:36:53,485][0m Trial 21 finished with value: 0.8801856384048796 and parameters: {'n_estimators': 1548, 'learning_rate': 0.026627133972045986, 'max_depth': 12, 'subsample': 0.7043594378468966, 'colsample_bytree': 0.6168884017401365, 'gamma': 0.7631267174941246, 'min_child_weight': 3}. Best is trial 13 with value: 0.8818819143257041.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:37:29,856][0m Trial 22 finished with value: 0.880032409868191 and parameters: {'n_estimators': 1562, 'learning_rate': 0.02483760581552346, 'max_depth': 11, 'subsample': 0.7025631145146659, 'colsample_bytree': 0.6154474685805293, 'gamma': 0.4794895695717434, 'min_child_weight': 4}. Best is trial 13 with value: 0.8818819143257041.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:38:12,185][0m Trial 23 finished with value: 0.8774628649760089 and parameters: {'n_estimators': 1528, 'learning_rate': 0.011302566056401927, 'max_depth': 11, 'subsample': 0.6219108951384238, 'colsample_bytree': 0.7004341858196648, 'gamma': 0.23627363513862654, 'min_child_weight': 4}. Best is trial 13 with value: 0.8818819143257041.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:38:39,836][0m Trial 24 finished with value: 0.8826426374338375 and parameters: {'n_estimators': 1851, 'learning_rate': 0.029158880165638626, 'max_depth': 12, 'subsample': 0.7450381101090718, 'colsample_bytree': 0.6263431305388569, 'gamma': 0.34999287697563625, 'min_child_weight': 2}. Best is trial 24 with value: 0.8826426374338375.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:39:06,341][0m Trial 25 finished with value: 0.8816946257875452 and parameters: {'n_estimators': 1832, 'learning_rate': 0.03536920401686897, 'max_depth': 12, 'subsample': 0.7576007577985497, 'colsample_bytree': 0.8601820003753005, 'gamma': 0.33291975623087544, 'min_child_weight': 2}. Best is trial 24 with value: 0.8826426374338375.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:39:22,267][0m Trial 26 finished with value: 0.8762544523803752 and parameters: {'n_estimators': 1829, 'learning_rate': 0.044069702922656884, 'max_depth': 12, 'subsample': 0.7443519031052453, 'colsample_bytree': 0.8563999737520488, 'gamma': 1.6197189089272934, 'min_child_weight': 1}. Best is trial 24 with value: 0.8826426374338375.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:39:56,786][0m Trial 27 finished with value: 0.8737890157958962 and parameters: {'n_estimators': 1793, 'learning_rate': 0.05127034316033884, 'max_depth': 6, 'subsample': 0.7524043247136988, 'colsample_bytree': 0.8760014636331687, 'gamma': 0.26006476704275117, 'min_child_weight': 2}. Best is trial 24 with value: 0.8826426374338375.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:40:19,499][0m Trial 28 finished with value: 0.8755906849702058 and parameters: {'n_estimators': 1991, 'learning_rate': 0.035033401376186275, 'max_depth': 9, 'subsample': 0.8232592016367779, 'colsample_bytree': 0.7924973443455167, 'gamma': 1.3110315190317015, 'min_child_weight': 2}. Best is trial 24 with value: 0.8826426374338375.[0m
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `eval_metric` in `fit` method is deprecated for better compatibility with scikit-learn, use `eval_metric` in constructor or`set_params` instead.
+  warnings.warn(
+C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\sklearn.py:889: UserWarning: `early_stopping_rounds` in `fit` method is deprecated for better compatibility with scikit-learn, use `early_stopping_rounds` in constructor or`set_params` instead.
+  warnings.warn(
+[32m[I 2025-05-27 00:40:24,602][0m Trial 29 finished with value: 0.8611625740954043 and parameters: {'n_estimators': 1212, 'learning_rate': 0.05848881946169758, 'max_depth': 10, 'subsample': 0.888696709267523, 'colsample_bytree': 0.9375077483122395, 'gamma': 4.925532223219225, 'min_child_weight': 1}. Best is trial 24 with value: 0.8826426374338375.[0m

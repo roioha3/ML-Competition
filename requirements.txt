@@ -1,8 +1,8 @@
-pandas
-numpy
-scikit-learn
-h2o
-lightgbm
-xgboost
-optuna
-category_encoders
+pandas>=1.5.3
+numpy>=1.23
+scikit-learn>=1.2
+optuna>=3.0
+xgboost>=1.7.5
+lightgbm>=3.3.5
+catboost>=1.2
+tensorflow==2.11.0
