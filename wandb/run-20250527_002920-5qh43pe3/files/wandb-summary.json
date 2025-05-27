@@ -1,0 +1,1 @@
+{"_timestamp":1.7482956246013076e+09,"learning_rate":0.05848881946169758,"mean_cv_auc":0.8611625740954043,"min_child_weight":1,"tree_method":"hist","gamma":4.925532223219225,"n_jobs":-1,"n_estimators":1212,"_runtime":664.1999066,"_step":29,"_wandb":{"runtime":664},"subsample":0.888696709267523,"max_depth":10,"colsample_bytree":0.9375077483122395,"random_state":42}

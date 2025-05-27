@@ -1,0 +1,29 @@
+[32m[I 2025-05-27 00:24:51,596][0m A new study created in memory with name: no-name-a1049ae8-a45a-4925-b02b-a8face91de4a[0m
+[33m[W 2025-05-27 00:24:51,611][0m Trial 0 failed with parameters: {'n_estimators': 1784, 'learning_rate': 0.07245134053225882, 'max_depth': 5, 'subsample': 0.6364673466844198, 'colsample_bytree': 0.9902244114602545, 'gamma': 0.48467243266832827, 'min_child_weight': 8} because of the following error: TypeError("XGBClassifier.fit() got an unexpected keyword argument 'early_stopping_rounds'").[0m
+Traceback (most recent call last):
+  File "C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\optuna\study\_optimize.py", line 197, in _run_trial
+    value_or_values = func(trial)
+  File "c:\Users\PC\Desktop\Works\ML\ML-Competition\ML-Competition\smoker_status\competition.py", line 78, in objective
+    model.fit(X_train, y_train,
+  File "C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\core.py", line 729, in inner_f
+    return func(**kwargs)
+TypeError: XGBClassifier.fit() got an unexpected keyword argument 'early_stopping_rounds'
+[33m[W 2025-05-27 00:24:51,614][0m Trial 0 failed with value None.[0m
+Traceback (most recent call last):
+  File "c:\Users\PC\Desktop\Works\ML\ML-Competition\ML-Competition\smoker_status\competition.py", line 90, in <module>
+    study.optimize(objective, n_trials=30)
+  File "C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\optuna\study\study.py", line 475, in optimize
+    _optimize(
+  File "C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\optuna\study\_optimize.py", line 63, in _optimize
+    _optimize_sequential(
+  File "C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\optuna\study\_optimize.py", line 160, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+  File "C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\optuna\study\_optimize.py", line 248, in _run_trial
+    raise func_err
+  File "C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\optuna\study\_optimize.py", line 197, in _run_trial
+    value_or_values = func(trial)
+  File "c:\Users\PC\Desktop\Works\ML\ML-Competition\ML-Competition\smoker_status\competition.py", line 78, in objective
+    model.fit(X_train, y_train,
+  File "C:\Users\PC\anaconda3\envs\smoker-ml\lib\site-packages\xgboost\core.py", line 729, in inner_f
+    return func(**kwargs)
+TypeError: XGBClassifier.fit() got an unexpected keyword argument 'early_stopping_rounds'

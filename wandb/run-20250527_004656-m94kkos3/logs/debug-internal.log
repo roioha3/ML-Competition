@@ -1,0 +1,16 @@
+{"time":"2025-05-27T00:46:56.9106575+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"C:\\Users\\PC\\Desktop\\Works\\ML\\ML-Competition\\ML-Competition\\wandb\\run-20250527_004656-m94kkos3\\logs\\debug-core.log"}
+{"time":"2025-05-27T00:46:57.2342283+03:00","level":"INFO","msg":"created new stream","id":"m94kkos3"}
+{"time":"2025-05-27T00:46:57.2342283+03:00","level":"INFO","msg":"stream: started","id":"m94kkos3"}
+{"time":"2025-05-27T00:46:57.2342283+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"m94kkos3"}
+{"time":"2025-05-27T00:46:57.2342283+03:00","level":"INFO","msg":"sender: started","stream_id":"m94kkos3"}
+{"time":"2025-05-27T00:46:57.2342283+03:00","level":"INFO","msg":"handler: started","stream_id":"m94kkos3"}
+{"time":"2025-05-27T00:46:57.4872077+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-27T01:17:21.0958106+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-27T01:17:21.0958106+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-27T01:17:22.0754406+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-27T01:17:22.1131526+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 29-29, summary, console lines 390-390","runtime_seconds":0.0369924}],"total_operations":1}}
+{"time":"2025-05-27T01:17:22.313031+03:00","level":"INFO","msg":"stream: closing","id":"m94kkos3"}
+{"time":"2025-05-27T01:17:22.313031+03:00","level":"INFO","msg":"handler: closed","stream_id":"m94kkos3"}
+{"time":"2025-05-27T01:17:22.313031+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"m94kkos3"}
+{"time":"2025-05-27T01:17:22.313031+03:00","level":"INFO","msg":"sender: closed","stream_id":"m94kkos3"}
+{"time":"2025-05-27T01:17:22.3135371+03:00","level":"INFO","msg":"stream: closed","id":"m94kkos3"}
